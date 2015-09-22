@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/jquery-ui.css" />
+    <link type="text/css" rel="stylesheet" href="/css/style.css" />
+    <style type="text/css">
+        #toolbar {
+            padding: 4px;
+            display: inline-block;
+        } 
+    </style>
+</head>
+<body>
+
+  <div> 
+    <div id="cdc_controls" class="cdc cdc_main_mode" style="display: block;">
+       <canvas id="canvas" width="40" height="40" ></canvas>
+    </div>    
+    <div id="cdc2" style="display: none"  > 
+    </div>  
+  </div>
+
+
+<div id="toolbar" class="ui-widget-header ui-corner-all">
+  
+  <button id="wall"></button>
+<!--
+  <button id="door"></button>
+ --> 
+</div>
+ 
+    <br><br>
+    <button id="save"></button>
+    <button id="load"></button>
+    <button id="2D"></button>
+    <button id="3D"></button>
+
+<br><br>
+
+ 
+ 
+<!--     --> 
+    <script src="/js/fabric.js"></script>
+<!--     -->   
+    <script src="/js/jquery.js"></script>  
+    <script src="/js/jquery-ui.js"></script>      
+    <script src="/js/jquery.mousewheel.min.js"></script>  
+<!--     --> 
+    <script src="/js/three.js"></script>  
+    <script src="/js/OrbitControls.js"></script>
+    <script src="/js/ColladaLoader.js"></script>
+    <script src="/js/Detector.js"></script>
+<!--     --> 
+    <script src="/jjs/jcdc3D.js"></script>
+    <script src="/jjs/jcdc.js"></script>
+    <script src="/jjs/jui.js"></script>
+<!--     --> 
+ 
+
+</body>
+</html>
