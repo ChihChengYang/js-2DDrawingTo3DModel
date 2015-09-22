@@ -4,6 +4,7 @@ Convert a 2D drawing into a 3D Model
 ================ 
 Usage
 ================
+
  
 ###  Usage
  
@@ -25,7 +26,12 @@ Usage
     
     # 3. Convert a 2D drawing into a 3D Model
         j_cdc.show3D();	
+		
+###  Demo
 	
+	![alt tag](https://cloud.githubusercontent.com/assets/11268557/10010384/452be6c0-611d-11e5-8e73-d29d20f9bbd5.png)
+	
+	![alt tag](https://cloud.githubusercontent.com/assets/11268557/10010387/53dd14e6-611d-11e5-88dd-483038d4c51f.png)
 	
 	
 
